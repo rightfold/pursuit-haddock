@@ -36,6 +36,11 @@ code, pre {
 
 .decl__signature {
     background: #f0f0f0;
+    border-top: solid 1px #ccc;
     border-bottom: none;
     padding: 0.2em 0.5em;
+}
+
+.decl__body .keyword, .decl__body .syntax {
+    color: inherit;
 }
