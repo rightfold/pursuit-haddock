@@ -14,3 +14,13 @@ a:visited {
 a:hover {
     text-decoration: underline;
 }
+
+.decl__body > *:not(.decl__signature) {
+	margin-left: 2em;
+}
+
+.decl__signature {
+    background: #f0f0f0;
+    border-bottom: none;
+    padding: 0.2em 0.5em;
+}
