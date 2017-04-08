@@ -15,6 +15,21 @@ a:hover {
     text-decoration: underline;
 }
 
+code {
+    padding: 0;
+}
+
+code:before, code:after {
+    content: '';
+}
+
+code, pre {
+	background-color: transparent;
+    color: inherit;
+    font-family: monospace;
+    font-size: inherit;
+}
+
 .decl__body > *:not(.decl__signature) {
 	margin-left: 2em;
 }
